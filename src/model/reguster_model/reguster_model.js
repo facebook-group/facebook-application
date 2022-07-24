@@ -33,7 +33,7 @@ const reguster = database.define('regusters', {
       type:STRING,
       defaultValue:""
     },
-    role:{//ENUM MEAN YOU NEED TO SELECT ON OF THISE JUST YOU CANT INSERT ANOTHER TYPE
+    role:{//ENUM MEAN YOU NEED TO SELECT ON OF THISE JUST YOU CANT INSERT ANOTHER TYP
       type:ENUM('admin','writer','editor','user'),
       defaultValue:"user",
     },
