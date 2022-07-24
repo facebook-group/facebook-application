@@ -38,34 +38,6 @@ app.use(express.json());
 
 
 
-
-
-
-
-
-//-----------------------------------------------routes section--------------------------------------------//
-const authntication_routes=require("../routes/authntication_routes/authntication_routes")
-app.use(authntication_routes)
-
-const Frinds_routes=require("../routes/frends_routes/frends_routs")
-app.use(Frinds_routes)
-
-const postes_routes=require("../routes/postes_routes/postes_routes")
-app.use(postes_routes)
-
-
-
-
-//----------------------------------------- Soket Io ------------------------------------------------------//
-//every user will join to reem same like his id and see all online user
-const online_join_soket_routes=require("../routes/soket/socket1-join-online-notification-routes")
-online_join_soket_routes(io)
-
-//all function will do on massage section and postes
-const massage_post_soket_routes=require("../routes/soket/soket2-massages-post-routes")
-massage_post_soket_routes(io)
-
-
 //----------------------------------------Error Handeler-----------------------------------------------------//
 const NotFound404=require("../middelware/404-500/404");
 const ErrorHandeler=require("../middelware/404-500/500");
