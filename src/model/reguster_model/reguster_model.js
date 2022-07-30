@@ -7,7 +7,7 @@ const reguster = database.define('regusters', {
     regusterid:{
       type:STRING,
       primaryKey:true,
-      allowNull:false
+     // allowNull:false
     },
     fullName: {
       type:STRING,
