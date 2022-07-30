@@ -13,11 +13,12 @@ const signout_controllers=require("../../controllers/authntication-controllers/l
 const basic_auth=require("../../middelware/authintication/basic_auth")
 const bearer_auth=require("../../middelware/authintication/barear_auth")
 
+const upload=require("../../middelware/authintication/signupImage")
 
 const getAllData_user_controllers=require("../../controllers/authntication-controllers/getalldata-user-controlles")
 //ALL ROUTES ARE USED
 router.post("/signin",basic_auth,signin_controllers)
-router.post("/signup",signup_controllers);
+router.post("/signup",upload, signup_controllers);
 router.post("/signout",signout_controllers)
 
 //get all information for the user
