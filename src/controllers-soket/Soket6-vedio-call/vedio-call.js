@@ -3,9 +3,9 @@ module.exports=(socket,io)=>{
         socket.join(data.regusterid)
     })
 
-    //get request from user want to create vedio call
+    //get request from any user want to create vedio call
     socket.on("requestPeerId",(data)=>{
-        //send the data for the another clinet 
+        //send the data for another clinet 
         socket.to(data.accept_Request_Id).emit("get-vedioCall-request",data)
     })
 
