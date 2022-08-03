@@ -5,13 +5,13 @@ const database=require("../../database/database")
 
 module.exports  = database.define('massagess', {
     text: {
-      type: TEXT,//String Varchar(3360)
+      type: TEXT,
     },
     chatId:{
         type:TEXT,
     },
     frindid: {
-        type: TEXT,//String Varchar(3360)
+        type: TEXT,
       },
     fullName:{
           type:TEXT,
@@ -31,6 +31,4 @@ module.exports  = database.define('massagess', {
 
   
     
-  }, {
-    // Other model options go here
   });
