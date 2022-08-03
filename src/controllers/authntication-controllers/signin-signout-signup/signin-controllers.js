@@ -1,8 +1,8 @@
-const reguster_model = require("../../model/reguster_model/reguster_model");
+const reguster_model = require("../../../model/reguster_model/reguster_model");
 
 module.exports = async (req, res, next) => {
-  const acces_Token = require("../../token/access-token");
-  const refresh_token = require("../../token/refresh_token");
+  const acces_Token = require("../../../token/access-token");
+  const refresh_token = require("../../../token/refresh_token");
 
   try {
     user = req.basicAuth;

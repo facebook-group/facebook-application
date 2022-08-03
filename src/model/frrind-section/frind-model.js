@@ -4,7 +4,7 @@ const database=require("../../database/database")
   
 
 const frinds = database.define('frinds', {
-  //IF YOU UPDATE ARRAY IN THE MODEL IN THE TIME YOU CREATE CREATE THE ID DIRECTLY
+
   myfrindid:{
     type:STRING,
   },
@@ -25,7 +25,7 @@ const frinds = database.define('frinds', {
     type:TEXT
   }
   }, {
-    // Other model options go here
+
   });
 
   

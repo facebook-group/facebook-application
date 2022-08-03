@@ -4,10 +4,10 @@ const database=require("../../database/database")
 
 const notification_model = database.define('notifications', {
     PersonSendFrendRequest: {
-      type:STRING,//String Varchar(3360)
+      type:STRING,
     },
     TypeNotification: {
-        type:STRING,//String Varchar(3360)
+        type:STRING,
       },  
     PersonAcceptFrendRequest:{
         type:STRING,
