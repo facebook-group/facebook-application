@@ -16,6 +16,7 @@ require("dotenv").config();
 //require soket io section 
 const {Server} =require("socket.io")
 
+//create the server here
 const server = http.createServer(app);
 const io=new Server(server,{
   cors:{
