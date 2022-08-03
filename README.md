@@ -125,6 +125,21 @@ npm start
 
 
 
+## Primary Goals
+* #### Build a social media platform that make it possible for experts to rank the daily posts.
+* #### Build this app from scratch and use it in your real life; best by adding some additional advanced features to this base project.
+* #### The main goal is to master  NodeJs and database skills and begin the full stack journey by developing this project.
+* #### After building this app, we have implemented private chat, image upload in the post section and like, comment feature to make it more practical.
+
+
+## Applications
+* #### You can use it among your friends or family and use it as a real world small scale social media application.
+
+
+
+
+
+
 
 
 
