@@ -1,3 +1,5 @@
+
+//type of the data use 
 const { STRING } = require("sequelize");
 const database=require("../../database/database")
 
