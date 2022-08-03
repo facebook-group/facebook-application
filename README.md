@@ -100,7 +100,28 @@ npm start
 * **socket.io**
 * **sqlite3**
 
-  
+## Objective
+#### Build a full stack web application - AllInOne (a social media app) using Node.JS, Express.Js, and deploying the application to Heroku.
+
+## Project Context
+#### AllInOne is a simple real world application where users can write posts, add each other and also chat with each other.
+
+
+#### Building a full stack application single-handedly is a tough task, but learning and building such application will help us master our skills.
+
+
+#### Building this project will be a challenging task where we will get to learn and explore all about the MVC pattern, Databases and much more.
+
+## Project Stages
+#### We can divide the project based on the stack used:
+
+* #### HTML, CSS, Bootstrap: Building the UI of the application
+* #### Serving HTML dynamically
+* #### Familiarising the NodeJS environment
+* #### ExpressJS: Framework for creating servers.
+* #### Socket.IO: Building live chatting feature
+* #### GitHub: To publish your project.
+* #### Heroku: Deploy the full stack application.
 
 
 
