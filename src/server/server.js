@@ -8,6 +8,7 @@ const http = require('http')
 const cors=require("cors");
 const cookieParser = require('cookie-parser')
 app.use(cookieParser())
+//for secrete dot env
 require("dotenv").config();
 
 
@@ -16,6 +17,7 @@ require("dotenv").config();
 //require soket io section 
 const {Server} =require("socket.io")
 
+//create the server here
 const server = http.createServer(app);
 const io=new Server(server,{
   cors:{
