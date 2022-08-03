@@ -8,6 +8,7 @@ const http = require('http')
 const cors=require("cors");
 const cookieParser = require('cookie-parser')
 app.use(cookieParser())
+//for secrete dot env
 require("dotenv").config();
 
 
