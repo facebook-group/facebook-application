@@ -1,5 +1,5 @@
 
-let onlineFrind={}//object to save all online frend 
+let onlineFrind={}//object to save all online friend
 
 module.exports=(socket,io)=>{
     //use to select all online user when do connect 

@@ -29,4 +29,3 @@ module.exports=(req,res)=>{
           console.error(error.response.body)
         }
       });
-  }
