@@ -14,10 +14,10 @@ module.exports=(req,res)=>{
     });
     
     const mailOptions = {
-      from: process.env.NODEMAILER_EMAIL, // sender address
-      to: email, // list of receivers
-      subject: 'verify code', // Subject line
-      html: `<h1>The Verify Code Is ${varificationPass}</h1>`// plain text body
+      from: process.env.NODEMAILER_EMAIL, 
+      to: email, 
+      subject: 'verify code', 
+      html: `<h1>The Verify Code Is ${varificationPass}</h1>`
     };
     
     transporter.sendMail(mailOptions, function (err, info) {
